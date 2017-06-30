@@ -1,6 +1,7 @@
 # Stacy Suen's Project
 
-TODO: Write a project description
+This repository contains projects developed by Stacy during WDI course at General Assembly.  
+
 
 ## Installation
 
@@ -8,7 +9,7 @@ TODO: Write a project description
 
 ## Usage
 
-TODO: Write usage instructions
+To view Stacy's Portfolio.
 
 ## Contributing
 
@@ -20,12 +21,10 @@ TODO: Write usage instructions
 
 ## History
 
-TODO: Write history
+Started June 27th, 2017.
 
 ## Credits
 
 Designed and created by Stacy Suen.
 
 ## License
-
-TODO: Write license
