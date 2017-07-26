@@ -2,6 +2,17 @@ div {
   text-align: center;
 }
 
+.h1_center {
+  background-image: url("../../images/sharkFinCove1.jpeg");
+  background-size: cover;
+  background-position: center center;
+  position: static;
+
+}
+
+/*body {
+}*/
+
 .bubbles{
   position: relative;
   top: 0;
@@ -18,7 +29,7 @@ div {
 }
 
 .my-projects {
-  position: absolute;
+  position: relative;
   top: 30px;
   left: 70px;
   border-radius: 50%;
@@ -44,9 +55,9 @@ font {
   color: white;
 }
 
-body {
+/*body {
   background-color: #425651;
-}
+}*/
 
 footer {
   position: absolute;
