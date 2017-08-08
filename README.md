@@ -1,15 +1,15 @@
 # Stacy Suen's Project
 
-This repository contains projects developed by Stacy during WDI course at General Assembly.  
+This repository contains projects developed by Stacy during WDI course at General Assembly.
 
 
 ## Installation
 
-[Stacy's Portfolio!](https://NrupM.github.io "Stacy Suen")
+[Stacy's Portfolio!](https://stacysn.github.io "Stacy Suen")
 
 ## Usage
 
-To view Stacy's Portfolio.
+To view Stacy's personal portfolio that holds information about recent projects and personal biography.
 
 ## Contributing
 
@@ -26,5 +26,3 @@ Started June 27th, 2017.
 ## Credits
 
 Designed and created by Stacy Suen.
-
-## License
