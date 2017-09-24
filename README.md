@@ -5,9 +5,7 @@ This repository contains projects developed by Stacy during WDI course at Genera
 
 ## Installation
 
-[Stacy's Portfolio!](https://stacysn.github.io)
-This page is currently having issues loading (such as giant logos for contact information).
-Will be up and running soon! 
+COMING SOON
 
 ## Usage
 
