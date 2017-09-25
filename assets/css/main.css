@@ -85,28 +85,25 @@ section.module.parallax-3 {
     font-size: 160px;
   }
 }
-.my-bio {
-  position: relative;
-  top: 0px;
-  left: 0px;
-  border-radius: 50%;
-  width: 300px;
-  height: 200px;
-}
 
 .linkedin {
-  width: 30px;
-  height: 30px;
+  width: 45px;
+  height: 45px;
 }
 
 .mail {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
 }
 
 .github {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
+}
+
+.pinterest {
+  width: 40px;
+  height: 40px;
 }
 
 footer {
@@ -118,4 +115,9 @@ footer {
   background-color: rgba(0,0,0,0.6);
   padding: 5px 0;
   text-align: center;
+}
+
+.copyright {
+  color: white;
+  font-size: 12px
 }
