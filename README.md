@@ -1,12 +1,11 @@
-# Stacy Suen's Project
+# Stacy Suen's Personal Webpage!
+
+[Stacy Suen](http://stacysuen.rocks)
 
 This repository contains projects developed by Stacy during WDI course at General Assembly.
-
-
-## Installation
-
-COMING SOON
-
+ Still in progress! 
+ 
+ 
 ## Usage
 
 To view Stacy's personal portfolio that holds information about recent projects and personal biography.
