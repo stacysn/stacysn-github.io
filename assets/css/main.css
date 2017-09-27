@@ -128,7 +128,7 @@ section.module.parallax-3 {
   width: 100%;
   opacity: 0.5;
   transition: .5s ease;
-  background-color: pink;
+  /*background-color: pink;*/
 }
 
 .container-project1, .container-project2, .container-project3{
@@ -154,10 +154,10 @@ section.module.parallax-3 {
 
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   position: absolute;
   top: 20%;
-  left: 70%;
+  left: 21%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
@@ -166,8 +166,9 @@ section.module.parallax-3 {
   color: white;
   font-size: 15px;
   position: absolute;
-  top: 50%;
-  left: 70%;
+  top: 27%;
+  left: 80%;
+  right: -37%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
