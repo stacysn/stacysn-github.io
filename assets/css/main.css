@@ -39,7 +39,7 @@ section.module.parallax {
   background-attachment: fixed;
   background-size: cover;
 }
-section.module.parallax-1 h1 {
+section.module.parallax-1 .my-name {
   color: lavenderblush;
   font-size: 100px;
   line-height: 200px;
@@ -73,9 +73,6 @@ section.module.parallax-1 {
   background-image: url("../imgs/todd-downs-13325.jpg");
 }
 section.module.parallax-2 {
-  background-image: url("../imgs/myBike.jpeg");
-}
-section.module.parallax-3 {
   background-image: url("../imgs/sfc.jpg");
 }
 
@@ -94,6 +91,25 @@ section.module.parallax-3 {
   section.module.parallax h1 {
     font-size: 160px;
   }
+}
+
+.language-list li, .database li, .framework-library li, .others-skills li{
+  display: inline;
+}
+
+.skill {
+  padding: 0.15em 0.9em;
+  padding-top: 0.15em;
+  padding-right: 0.9em;
+  padding-bottom: 0.15em;
+  padding-left: 0.9em;
+  font-size: 0.9em;
+  background-color: silver;
+  border-radius: 41.625em;
+  border-top-left-radius: 41.625em;
+  border-bottom-right-radius: 41.625em;
+  border-bottom-left-radius: 41.625em;
+  background-color: darkgrey;
 }
 
 .linkedin {
