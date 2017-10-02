@@ -28,21 +28,39 @@
 <body>
 
   <section class="module parallax parallax-1">
+    <section class='nav-bar'>
+      <nav class='nav-bar-1'>
+        <a href='#about'>
+          About
+        </a>
+        <a href='#projects'>
+          Projects
+        </a>
+        <a href='#resume'>
+          Resume
+        </a>
+        <a href='#contact'>
+          Contact
+        </a>
+        </nav>
+    </section>
+
     <div class="container">
       <div class="row">
         <div class="my-name">Stacy Suen</div>
         <h3> Full Stack Web Developer </h3>
       </div>
     </div>
+
   </section>
 
   <section class="module content">
-    <div class="container">
+    <div class="container" id="about">
       <h1>About me</h1>
       <p>Hello there, and welcome to my page! I am a new full stack web developer in San Francisco. Feel free to check out my projects built on React, Ruby on Rails, and MEN stack below. This website is currently in progress, so check back again soon! </p>
     </div>
     <div class="container">
-      <div class="col-s12-m12-l12">
+      <div class="col-sm12-m12-l12">
         <ul class="language-list">
           <li class="skill">JavaScript</li>
           <li class="skill">Ruby</li>
@@ -72,11 +90,12 @@
           <li class="skill">Chinese Cantonese</li>
         </ul>
       </div>
+
     </div>
   </section>
 
   <section class="module parallax parallax-2">
-      <div class="container">
+      <div class="container" id='projects'>
         <h2><b> My Projects </b></h2>
 
         <div class="container-project1">
@@ -105,14 +124,17 @@
 
       </div>
 
-
-      </div>
-
   </section>
+
+    <div class="resume" id='resume'>
+      <object data="StacySuenResume.pdf" type="application/pdf" width="100%" height="100%" position="absolute">
+        <a href="StacySuenResume.pdf"></a>
+      </object>
+    </div>
 
 
   <footer>
-    <div class="footer-div">
+    <div class="footer-div" id='contact'>
         <a href="mailto:stacysuen5@gmail.com"><img src="images/gmail.png" class="mail"/></a>
         <a href="https://www.linkedin.com/in/stacy-suen-035038110/"><img src="images/linkedin.png" class="linkedin"/></a>
         <a href="https://github.com/stacysn"><img src="images/github.png" class="github"/></a>

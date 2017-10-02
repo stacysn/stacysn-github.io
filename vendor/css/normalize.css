@@ -92,6 +92,8 @@ template, /* 1 */
 a {
   background-color: transparent; /* 1 */
   -webkit-text-decoration-skip: objects; /* 2 */
+  color: lavenderblush;
+  font-size: 20px
 }
 
 /**
@@ -152,6 +154,7 @@ dfn {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  text-align: center;
 }
 
 /**
