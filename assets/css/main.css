@@ -78,7 +78,7 @@ section.module.parallax-2 {
 
 @media all and (min-width: 600px) {
   section.module h2 {
-    font-size: 20px;
+    font-size: 40px;
   }
   section.module p {
     font-size: 30px;
@@ -115,21 +115,29 @@ section.module.parallax-2 {
 .linkedin {
   width: 45px;
   height: 45px;
+  box-shadow: 1.5px 1.5px lavenderblush ;
+  border-radius: 100%;
 }
 
 .mail {
-  width: 50px;
-  height: 50px;
+  width: 46px;
+  height: 46px;
+  box-shadow: 1.5px 1.5px lavenderblush ;
+  border-radius: 100%;
 }
 
 .github {
   width: 40px;
   height: 40px;
+  box-shadow: 1.5px 1.5px lavenderblush ;
+  border-radius: 100%;
 }
 
 .pinterest {
   width: 40px;
   height: 40px;
+  box-shadow: 1.5px 1.5px lavenderblush ;
+  border-radius: 100%;
 }
 
 .slurp, .hyup, .seasit{
