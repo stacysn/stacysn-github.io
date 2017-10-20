@@ -96,11 +96,11 @@ section.module.parallax-1 {
   background-image: url("../imgs/todd-downs-13325.jpg");
 }
 section.module.parallax-2 {
-  background-image: url("../imgs/scHarbor.jpg")
+  background-image: url("../imgs/sc.JPG")
 }
-section.module.parallax-3{
+/*section.module.parallax-3{
   background-image: url("../imgs/sfc.jpg");
-}
+}*/
 @media all and (min-width: 600px) {
   section.module h2 {
     font-size: 40px;
