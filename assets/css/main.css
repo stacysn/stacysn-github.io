@@ -73,7 +73,7 @@ section.module.parallax-1 .my-name {
 }
 
 section.module.parallax h2 {
-  color: lavenderblush;
+  color: darkslategrey;
   font-size: 60px;
   line-height: 80px;
   font-weight: 500;
@@ -120,7 +120,7 @@ section.module.parallax-2 {
   }
 }
 
-.language-list li, .database li, .framework-library li, .others-skills li{
+.techs-used li, .language-list li, .database li, .framework-library li, .others-skills li{
   display: inline;
 }
 
@@ -140,6 +140,21 @@ h4 {
   border-bottom-right-radius: 41.625em;
   border-bottom-left-radius: 41.625em;
   background-color: darkgrey;
+}
+
+.tech {
+  padding: 0.15em 0.9em;
+  padding-top: 0.15em;
+  padding-right: 0.9em;
+  padding-bottom: 0.15em;
+  padding-left: 0.9em;
+  font-size: 0.9em;
+  border-radius: 41.625em;
+  border-top-left-radius: 41.625em;
+  border-bottom-right-radius: 41.625em;
+  border-bottom-left-radius: 41.625em;
+  background-color: white;
+  color: black
 }
 
 .linkedin {
@@ -218,13 +233,14 @@ h4 {
   left: 21%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  font-weight: bold
 }
 
 .sub-text {
   color: ghostwhite;
   font-size: 17px;
   position: absolute;
-  top: 27%;
+  top: 53%;
   /*left: 80%;*/
   /*right: -37%;*/
   transform: translate(59%, -65%);
@@ -244,5 +260,6 @@ footer {
 
 .copyright {
   color: white;
-  font-size: 12px
+  font-size: 12px;
+  margin: 1.5%
 }
