@@ -211,7 +211,7 @@ h4 {
 }
 
 .text {
-  color: white;
+  color: lightslategray;
   font-size: 30px;
   position: absolute;
   top: 20%;
@@ -225,9 +225,9 @@ h4 {
   font-size: 17px;
   position: absolute;
   top: 27%;
-  left: 80%;
-  right: -37%;
-  transform: translate(-50%, -50%);
+  /*left: 80%;*/
+  /*right: -37%;*/
+  transform: translate(59%, -65%);
   -ms-transform: translate(-50%, -50%);
   padding: 0.1em;
 }
