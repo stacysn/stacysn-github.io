@@ -73,7 +73,7 @@ section.module.parallax-1 .my-name {
 }
 
 section.module.parallax h2 {
-  color: lavenderblush;
+  color: darkslategrey;
   font-size: 60px;
   line-height: 80px;
   font-weight: 500;
@@ -260,5 +260,6 @@ footer {
 
 .copyright {
   color: white;
-  font-size: 12px
+  font-size: 12px;
+  margin: 1.5%
 }
