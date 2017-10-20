@@ -55,7 +55,7 @@ section.module.content {
   padding: 40px 0;
 }
 section.module.parallax {
-  height: 600px;
+  height: 700px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -179,6 +179,7 @@ h4 {
   left: 70px;
   opacity: 0.9;
   height: auto;
+  margin: 2%
 }
 
 .overlay {
@@ -193,7 +194,7 @@ h4 {
   width: 35%;
   position: relative;
   left: 20%;
-  opacity: 0.9;
+  /*opacity: 0.9;*/
   height: auto;
   width: 50%;
 }
@@ -221,8 +222,8 @@ h4 {
 }
 
 .sub-text {
-  color: white;
-  font-size: 15px;
+  color: ghostwhite;
+  font-size: 17px;
   position: absolute;
   top: 27%;
   left: 80%;
