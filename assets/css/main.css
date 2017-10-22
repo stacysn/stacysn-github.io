@@ -209,7 +209,7 @@ h4 {
 .overlay {
   height: 100%;
   width: 100%;
-  opacity: 0.5;
+  /*opacity: 0.5;*/
   transition: .5s ease;
   /*background-color: pink;*/
 }
@@ -217,7 +217,7 @@ h4 {
 .container-project1, .container-project2, .container-project3{
   width: 35%;
   position: relative;
-  left: 20%;
+  left: 10%;
   /*opacity: 0.9;*/
   height: auto;
   width: 50%;
@@ -252,7 +252,7 @@ h4 {
   position: absolute;
   top: 53%;
   /*left: 80%;*/
-  /*right: -37%;*/
+  right: -20%;
   transform: translate(59%, -65%);
   -ms-transform: translate(-50%, -50%);
   padding: 0.1em;
