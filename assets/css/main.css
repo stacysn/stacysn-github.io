@@ -35,9 +35,6 @@ a{
 /* ============================================================
 SECTIONS
 ============================================================ */
-section.module:last-child {
-  margin-bottom: 0;
-}
 section.module h2 {
   margin-bottom: 40px;
   font-family: "Roboto Slab", serif;
@@ -114,6 +111,23 @@ section.module.parallax-2 {
     font-size: 96px;
   }
 }
+
+@media (max-width: 500px){
+  section.module .sub-text {
+    font-size: 12px;
+  }
+}
+@media (max-width: 700px){
+  section.module .seasit {
+    width: 45%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  section.module .sub-text {
+    font-size: 17px;
+  }
+}
+
 @media all and (min-width: 960px) {
   section.module.parallax h1 {
     font-size: 160px;
@@ -190,7 +204,7 @@ h4 {
 }
 
 .slurp, .hyup, .seasit{
-  width: 45%;
+  width: 57%;
   left: 70px;
   height: auto;
   margin: 2%
@@ -230,7 +244,7 @@ h4 {
   font-size: 30px;
   position: absolute;
   top: 20%;
-  left: 21%;
+  left: 29%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   font-weight: bold
