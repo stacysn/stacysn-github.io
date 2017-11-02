@@ -20,9 +20,13 @@ a{
   text-decoration: none;
 }
 
+a:hover {
+  color: pink;
+}
 .nav-bar-1{
   word-spacing: 4em;
   letter-spacing: 0.5em;
+  margin: 20px;
 }
 
 #my-portrait{
