@@ -46,7 +46,7 @@ section.module h2 {
 }
 section.module p {
   margin-bottom: 25px;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 300;
 }
 section.module p:last-child {
@@ -117,40 +117,7 @@ section.module.parallax-1 {
 section.module.parallax-2 {
   background-image: url("../imgs/sc.JPG")
 }
-/*section.module.parallax-3{
-  background-image: url("../imgs/sfc.jpg");
-}*/
-/*@media all and (min-width: 600px) {
-  section.module h2 {
-    font-size: 40px;
-  }
-  section.module p {
-    font-size: 25px;
-    padding-right: 1.1em;
-    padding-left: 1.1em;
-  }
-  section.module.parallax h1 {
-    font-size: 96px;
-  }
-}
 
-@media (max-width: 500px){
-  section.module .sub-text {
-    font-size: 12px;
-  }
-}
-
-@media only screen and (min-width: 600px) {
-  section.module .sub-text {
-    font-size: 17px;
-  }
-}
-
-@media all and (min-width: 960px) {
-  section.module.parallax h1 {
-    font-size: 160px;
-  }
-}*/
 
 .techs-used li, .language-list li, .database li, .framework-library li, .others-skills li{
   display: inline;
@@ -237,19 +204,16 @@ h4 {
   transition: .5s ease;
 }
 
-.container-project1 {
+
+/*PROJECT BORDER*/
+.container-project1, .container-project2, .container-project3 {
   border: 1px solid;
   border-radius: 43px;
   color: gray;
   background: rgba(204, 204, 204, 0.5);
 }
 
-.container-project2 {
-  border: 1px solid;
-  border-radius: 43px;
-  color: gray;
-  background: rgba(204, 204, 204, 0.5);
-}
+
 
 .text {
   color: lightslategray;
