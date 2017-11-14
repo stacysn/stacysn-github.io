@@ -55,13 +55,31 @@ section.module p:last-child {
 section.module.content {
   padding: 40px 0;
 }
-section.module.parallax {
+
+
+section.module.parallax-1 {
   height: 800px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
+section.module.parallax-2 {
+  height: 1000px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.module.parallax-3 {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
 section.module.parallax-1 .my-name {
   color: lavenderblush;
   font-size: 100px;
@@ -102,7 +120,7 @@ section.module.parallax-2 {
 /*section.module.parallax-3{
   background-image: url("../imgs/sfc.jpg");
 }*/
-@media all and (min-width: 600px) {
+/*@media all and (min-width: 600px) {
   section.module h2 {
     font-size: 40px;
   }
@@ -132,7 +150,7 @@ section.module.parallax-2 {
   section.module.parallax h1 {
     font-size: 160px;
   }
-}
+}*/
 
 .techs-used li, .language-list li, .database li, .framework-library li, .others-skills li{
   display: inline;
@@ -204,10 +222,13 @@ h4 {
 }
 
 .slurp, .hyup, .seasit{
-  width: 50%;
+  width: 300px;
   left: 70px;
   height: auto;
-  margin: 2%
+  margin: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .overlay {
@@ -218,48 +239,37 @@ h4 {
   /*background-color: pink;*/
 }
 
-.container-project1, .container-project2, .container-project3{
+/*.container-project1, .container-project2, .container-project3{
   width: 35%;
   position: relative;
-  left: 10%;
+  left: 10%;*/
   /*opacity: 0.9;*/
-  height: auto;
+  /*height: auto;
   width: 50%;
-}
-
-.container-project1:hover .overlay {
-  opacity: 1;
-}
-
-.container-project2:hover .overlay {
-  opacity: 1;
-}
-
-.container-project3:hover .overlay {
-  opacity: 1;
-}
+}*/
 
 .text {
   color: lightslategray;
-  font-size: 30px;
-  position: absolute;
-  top: 20%;
-  left: 29%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  font-size: 55px;
+  position: relative;
+  margin-left: 42%;
   font-weight: bold
+}
+
+.text:hover {
+  color: pink
 }
 
 .sub-text {
   color: ghostwhite;
   font-size: 17px;
-  position: absolute;
-  top: 53%;
+  /*position: absolute;
+  top: 53%;*/
   /*left: 80%;*/
-  right: -20%;
+  /*right: -20%;
   transform: translate(59%, -65%);
-  -ms-transform: translate(-50%, -50%);
-  padding: 0.1em;
+  -ms-transform: translate(-50%, -50%);*/
+  /*padding: 0.1em;*/
 }
 
 footer {
