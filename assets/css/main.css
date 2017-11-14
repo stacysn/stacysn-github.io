@@ -65,7 +65,7 @@ section.module.parallax-1 {
   background-size: cover;
 }
 section.module.parallax-2 {
-  height: 1000px;
+  height: 1400px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -234,19 +234,22 @@ h4 {
 .overlay {
   height: 100%;
   width: 100%;
-  /*opacity: 0.5;*/
   transition: .5s ease;
-  /*background-color: pink;*/
 }
 
-/*.container-project1, .container-project2, .container-project3{
-  width: 35%;
-  position: relative;
-  left: 10%;*/
-  /*opacity: 0.9;*/
-  /*height: auto;
-  width: 50%;
-}*/
+.container-project1 {
+  border: 1px solid;
+  border-radius: 43px;
+  color: gray;
+  background: rgba(204, 204, 204, 0.5);
+}
+
+.container-project2 {
+  border: 1px solid;
+  border-radius: 43px;
+  color: gray;
+  background: rgba(204, 204, 204, 0.5);
+}
 
 .text {
   color: lightslategray;
@@ -263,13 +266,6 @@ h4 {
 .sub-text {
   color: ghostwhite;
   font-size: 17px;
-  /*position: absolute;
-  top: 53%;*/
-  /*left: 80%;*/
-  /*right: -20%;
-  transform: translate(59%, -65%);
-  -ms-transform: translate(-50%, -50%);*/
-  /*padding: 0.1em;*/
 }
 
 footer {
