@@ -77,7 +77,7 @@ section.module.parallax-1 {
   background-size: cover;
 }
 section.module.parallax-2 {
-  height: 1400px;
+  height: 1486px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -241,18 +241,9 @@ h4 {
 .sub-text {
   color: ghostwhite;
   font-size: 17px;
+  font-family: 'Merienda', cursive;
+
 }
-
-/*footer {
-  color: white;
-  margin: 0;
-  height: 100px;
-  font-size: 15px;
-  background-image: url("../imgs/todd-downs-13325.jpg");
-  padding: 5px 0;
-  text-align: center;
-
-}*/
 
 footer {
  position: fixed;
