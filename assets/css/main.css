@@ -1,7 +1,12 @@
 /* ============================================================
 PRIMARY STRUCTURE OF PARALLAX
 ============================================================ */
-
+section.module.parallax-1 {
+  background-image: url("../imgs/todd-downs-13325.jpg");
+}
+section.module.parallax-2 {
+  background-image: url("../imgs/sc.JPG")
+}
 .container {
   max-width: 960px;
   margin: 0 auto;
@@ -121,14 +126,6 @@ section.module.parallax h3 {
   text-transform: uppercase;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-
-section.module.parallax-1 {
-  background-image: url("../imgs/todd-downs-13325.jpg");
-}
-section.module.parallax-2 {
-  background-image: url("../imgs/sc.JPG")
-}
-
 
 .techs-used li, .language-list li, .database li, .framework-library li, .others-skills li{
   display: inline;
