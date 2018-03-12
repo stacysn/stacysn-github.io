@@ -2,7 +2,7 @@
 PRIMARY STRUCTURE OF PARALLAX
 ============================================================ */
 section.module.parallax-1 {
-  background-image: url("../imgs/todd-downs-13325.jpg");
+  background-image: url("../imgs/todd-down.jpeg");
 }
 
 
@@ -105,9 +105,15 @@ SECTIONS
 }
 
 section.module h1{
-  font-size: 3em;
+  font-size: 4em;
+  color: darkcyan;
 }
-section.module h4, h1{
+
+#describe{
+  font-size: 1.5em;
+  color: darkcyan;
+}
+section.module h4{
   color: white;
   font-family: 'Merienda', cursive;
 }
