@@ -49,52 +49,42 @@ SECTIONS
 ============================================================ */
 
 .swe{
-  background-image: url('../imgs/laptop.jpeg');
-  width: 450px;
-  height: 300px;
-  background-position: center;
-  background-size: cover;
-  color: floralwhite;
-  font-weight: bold;
-  font-family: 'Amatic SC', cursive;
-  font-size: 25px;
+  color: darkgrey;
+  font-family: 'Montserrat', arial, sans-serif;
+  font-size: 20px;
   text-align: center;
   padding-top: 3em;
   padding-left: 1em;
   padding-right: 1em;
   margin-bottom: 2em;
+  letter-spacing: 3px;
+  line-height: 1.5em;
 }
 
 .hobbies {
-  background-image: url('../imgs/tennis.jpeg');
-  width: 350px;
-  height: 200px;
-  background-position: center;
-  background-size: cover;
-  color: white;
-  font-family: 'Amatic SC', cursive;
-  font-size: 25px;
+  color: darkgrey;
+  font-family: 'Montserrat', arial, sans-serif;
+  font-size: 20px;
   text-align: center;
   padding-top: 3em;
   padding-left: 1em;
   padding-right: 1em;
   margin-bottom: 2em;
+  letter-spacing: 3px;
+  line-height: 1.5em;
 }
 
 .check-out {
-  background-image: url('../imgs/javascript.jpeg');
-  width: 350px;
-  height: 200px;
-  background-position: center;
-  background-size: cover;
-  color: white;
-  font-family: 'Amatic SC', cursive;
-  font-size: 25px;
+  color: darkgrey;
+  font-family: 'Montserrat', arial, sans-serif;
+  font-size: 20px;
   text-align: center;
   padding-top: 3em;
   padding-left: 1em;
   padding-right: 1em;
   margin-left: 6em;
+  letter-spacing: 3px;
+  line-height: 1.5em;
 }
 
 .second-row{
@@ -105,28 +95,32 @@ SECTIONS
 
 section.module h1{
   font-size: 4em;
-  color: darkcyan;
+  color: darkgrey;
+  font-family: 'Montserrat', arial, sans-serif;
+  letter-spacing: 7px;
 }
 
 #describe{
   font-size: 1.5em;
-  color: darkcyan;
+  color: darkgrey;
+  letter-spacing: 5px;
+
 }
 section.module h4{
   color: white;
-  font-family: 'Merienda', cursive;
+  font-family: 'Montserrat', arial, sans-serif;
 }
 
 section.module h2 {
   margin-bottom: 40px;
-  font-family: "Roboto Slab", serif;
+  font-family: 'Montserrat', arial, sans-serif;
   font-size: 20px;
 }
 section.module p {
   margin-bottom: 25px;
   font-size: 20px;
   font-weight: 300;
-  font-family: 'Arbutus Slab', serif;
+  font-family: 'Montserrat', arial, sans-serif;
   color: lavenderblush
 
 }
@@ -303,7 +297,7 @@ h4 {
   color: ghostwhite;
   font-size: 17px;
   font-family: 'Merienda', cursive;
-
+  letter-spacing: 3px;
 }
 
 footer {
@@ -321,5 +315,6 @@ footer {
 .copyright {
   color: black;
   font-size: 12px;
-  margin: 1.5%
+  margin: 1.5%;
+  letter-spacing: 7px;
 }
